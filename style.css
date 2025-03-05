@@ -5,28 +5,28 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;
 }
 
 /* Style the header */
 header {
     background-color: #007bff;
     color: white;
-    text-align: center;
     padding: 20px;
     font-size: 24px;
 }
 
-/* Style the main content */
+/* Center the content */
 .container {
-    width: 80%;
-    margin: 20px auto;
+    width: 50%;
+    margin: 50px auto;
     padding: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style buttons */
+/* Style the button */
 button {
     background-color: #007bff;
     color: white;
@@ -34,19 +34,9 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
     background-color: #0056b3;
 }
-
-/* Style links */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-/* Add your styles here */ 
